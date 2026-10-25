@@ -1,0 +1,42 @@
+{
+  "version": 1,
+  "name": "Orbit scan",
+  "description": "A moving cyan scan with violet keys.",
+  "frame_count": 48,
+  "speed_ms": 40,
+  "palette": [
+    "#12E5FF",
+    "#A52BFF"
+  ],
+  "scenes": [
+    {
+      "name": "Orbit",
+      "start": 0,
+      "end": 48,
+      "top": [
+        {
+          "kind": "scan",
+          "color": "#12E5FF",
+          "axis": "x",
+          "width": 0.35,
+          "position": {
+            "from": 0.1,
+            "to": 0.9,
+            "ease": "sine"
+          }
+        }
+      ],
+      "keys": [
+        {
+          "kind": "wave",
+          "color": "#A52BFF",
+          "phase": {
+            "from": 0,
+            "to": 2
+          },
+          "frequency": 2
+        }
+      ]
+    }
+  ]
+}
