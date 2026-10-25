@@ -2,7 +2,7 @@
 
 ## GitHub repository URL
 
-`https://github.com/maestrokaka/lumen-recipe-engine` (replace with the final URL after creation)
+`https://github.com/maestrokaka/lumen-recipe-engine`
 
 ## Role
 
